@@ -5,7 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c8fcb281-9255-4149-a836-93374676fb9c"
+      }
+    }
   },
   "name": "MyReactNative"
 }
