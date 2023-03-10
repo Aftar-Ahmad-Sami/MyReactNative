@@ -1,5 +1,6 @@
-import { Text, View,StyleSheet,Image } from 'react-native'
-import React, { Component } from 'react'
+import { Text, View,StyleSheet,Image } from 'react-native';
+import React, { Component } from 'react';
+import LogIn from './log_in.js';
 
 export class SplashScreen extends Component {
 
@@ -39,7 +40,7 @@ export class SplashScreen extends Component {
 
         return (
             <View style={styles.mainContainer}>
-                <Text style={{textAlign:'center',color:'dodgerblue',fontSize:20,fontWeight:'bold'}}>Welcome</Text>
+                <LogIn/>
                 {
                     this.state.isVisible === true? splashScreen:null
                 }
